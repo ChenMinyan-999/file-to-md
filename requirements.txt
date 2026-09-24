@@ -1,0 +1,13 @@
+# convert_to_md.py 基础依赖（数字原生 PDF / DOCX / HTML）
+pymupdf>=1.24.0
+pymupdf4llm
+python-docx>=1.1.0
+mammoth>=1.8.0
+markdownify>=0.13.0
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+charset-normalizer>=3.3.0
+Pillow>=10.3.0
+
+# Windows 下调用 Word COM 转换旧版 .doc（可选）
+pywin32>=306; platform_system == "Windows"

@@ -1,0 +1,63 @@
+# ===== Python / uv 虚拟环境 =====
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ===== 文档转换生成物 / 中间文件 =====
+# 源文档目录（PDF、DOC、DOCX 等）
+/标准2/
+/标准2_source/
+source_standard2/
+
+# 转换结果目录
+/标准2_md/
+/*_md/
+/_trial_*/
+/*_trial_*/
+/*_assets/
+/*.zip
+md转换合集.zip
+
+# MinerU / 其他工具生成的缓存
+/blobs/
+.cache/
+.mineru/
+*.tmp
+*.temp
+*.log
+
+# 常见的源文档/结果文件（作为额外保险）
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.rtf
+*.odt
+*.ods
+
+# ===== IDE / 系统文件 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 注意：
+# 本项目的说明文档 README_转换说明.md、部署与运行流程.md 不会被忽略。
+# 如果需要保留某个示例文档，可在本文件中用 ! 单独取消忽略。

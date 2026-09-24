@@ -1,0 +1,6 @@
+-r requirements.txt
+
+# 扫描件基础 OCR 兜底（不安装 MinerU 时可用；精度有限，输出一定会标记为待复核）
+rapidocr-onnxruntime
+opencv-python-headless
+numpy

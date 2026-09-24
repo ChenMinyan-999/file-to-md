@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# MinerU 高精度解析（扫描件、复杂表格/公式强烈建议）
+# 体积较大，会下载模型；CPU 也可以运行，NVIDIA 显卡会明显加速。
+mineru[core]
